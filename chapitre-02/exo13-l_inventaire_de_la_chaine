@@ -1,1 +1,11 @@
 
+Le tableau "Available Toolchains" indique que deux chaînes de compilation sont actuellement disponibles sur ma machine :
+
+- "host-gcc" : GCC pour Windows, architecture x86_64, environnement MinGW.
+- "mingw" : GCC pour Windows, architecture x86_64, environnement MinGW.
+
+Aucune chaîne de compilation pour Linux, Android ou Web n'apparaît dans le tableau.
+
+Pour faire apparaître une chaîne Android, il faut installer et configurer l'outillage de compilation natif Android, notamment le Android NDK (Native Development Kit), afin que Jenga puisse détecter une toolchain Android.
+
+le rendu se trouve dans le fichier **info.png**...
