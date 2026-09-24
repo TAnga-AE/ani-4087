@@ -1,0 +1,63 @@
+Installation et lancement de l'application Android
+
+1. Construction de l'application
+
+L'application maSalle a été construite avec Jenga afin de générer un paquet Android au format APK.
+
+Plusieurs fichiers APK ont été générés :
+
+- "maSalle-unsigned.apk" : APK non signé ;
+- "maSalle-aligned.apk" : APK aligné ;
+- "maSalle-signed.apk" : APK signé et prêt à être installé.
+
+Le fichier utilisé pour l'installation est :
+
+C:\tae\maSalle\apk\maSalle-signed.apk
+
+2. Vérification de la présence de l'APK
+
+La commande suivante a permis de rechercher les fichiers APK :
+
+Get-ChildItem -Recurse -Filter *.apk
+
+Les fichiers suivants ont été trouvés :
+
+maSalle-aligned.apk
+maSalle-signed.apk
+maSalle-unsigned.apk
+
+3. Vérification de l'appareil Android
+
+L'outil ADB (Android Debug Bridge) a été utilisé pour communiquer avec l'appareil Android.
+
+La commande utilisée est :
+
+& "C:\Users\tanga emmanuel\Documents\android\platform-tools\adb.exe" devices
+
+L'appareil Android a été correctement détecté par ADB.
+
+4. Installation de l'application
+
+L'APK signé a ensuite été installé avec la commande :
+
+& "C:\Users\tanga emmanuel\Documents\android\platform-tools\adb.exe" install -r "C:\tae\maSalle\apk\maSalle-signed.apk"
+
+L'installation s'est terminée avec le résultat :
+
+Success
+
+Cela confirme que l'application maSalle a été correctement installée sur l'appareil Android.
+
+5. Lancement de l'application
+
+Après l'installation, j'ai ouvert l'application maSalle directement sur l'appareil Android.
+
+L'application s'est lancée correctement.
+
+Une photographie de l'écran de l'appareil montrant l'application maSalle en fonctionnement est jointe comme preuve.
+
+Conclusion
+
+L'APK maSalle-signed.apk a été généré, signé, installé sur un appareil Android à l'aide d'ADB, puis exécuté avec succès.
+
+Résultat final : installation et lancement réussis.
