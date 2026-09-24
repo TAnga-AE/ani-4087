@@ -1,4 +1,4 @@
-
+![info.png]
 Le tableau "Available Toolchains" indique que deux chaînes de compilation sont actuellement disponibles sur ma machine :
 
 - "host-gcc" : GCC pour Windows, architecture x86_64, environnement MinGW.
