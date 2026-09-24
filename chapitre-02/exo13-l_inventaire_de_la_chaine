@@ -9,3 +9,9 @@ Aucune chaîne de compilation pour Linux, Android ou Web n'apparaît dans le tab
 Pour faire apparaître une chaîne Android, il faut installer et configurer l'outillage de compilation natif Android, notamment le Android NDK (Native Development Kit), afin que Jenga puisse détecter une toolchain Android.
 
 le rendu se trouve dans le fichier **info.png**...
+
+
+
+
+
+
